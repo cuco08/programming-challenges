@@ -9,10 +9,10 @@ import org.apache.commons.io.FileUtils;
 
 import com.cuco.challenges.util.ThreeNPlusOneAlgorithm;
 
-public class Main {
+public class ThreeNPlus1Main {
 
 	public static void main(String[] args) throws IOException {
-		final List<String> inputList = FileUtils.readLines(new File("resources/input01.txt"), 
+		final List<String> inputList = FileUtils.readLines(new File("src/main/resources/input01.txt"), 
 				Charset.defaultCharset());
 		
 		final ThreeNPlusOneAlgorithm algorithm = new ThreeNPlusOneAlgorithm();
